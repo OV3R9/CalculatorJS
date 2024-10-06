@@ -7,11 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
-
-
-
+    <div class="container">
+        <div class="calculationsCont">
+            <button id="clear" class="clearBtn">C</button>
+            <p class="calculations" id="calcs"></p>
+        </div>
+        <div class="btnsContainer">
+            <button class="buttonCalc" onclick="AppendDisplay('1')">1</button>
+            <button class="buttonCalc" onclick="AppendDisplay('2')">2</button>
+            <button class="buttonCalc" onclick="AppendDisplay('3')">3</button>
+            <button class="buttonCalc" onclick="AppendDisplay('+')">+</button>
+            <button class="buttonCalc" onclick="AppendDisplay('4')">4</button>
+            <button class="buttonCalc" onclick="AppendDisplay('5')">5</button>
+            <button class="buttonCalc" onclick="AppendDisplay('6')">6</button>
+            <button class="buttonCalc" onclick="AppendDisplay('-')">-</button>
+            <button class="buttonCalc" onclick="AppendDisplay('7')">7</button>
+            <button class="buttonCalc" onclick="AppendDisplay('8')">8</button>
+            <button class="buttonCalc" onclick="AppendDisplay('9')">9</button>
+            <button class="buttonCalc" onclick="AppendDisplay('*')">*</button>
+            <button class="buttonCalc" onclick="AppendDisplay('.')">.</button>
+            <button class="buttonCalc" onclick="AppendDisplay('0')">0</button>
+            <button class="buttonCalc" onclick="Equals()">=</button>
+            <button class="buttonCalc" onclick="AppendDisplay('/')">/</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
