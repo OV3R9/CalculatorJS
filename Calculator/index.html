@@ -9,7 +9,9 @@
 <body>
     <div class="container">
         <div class="calculationsCont">
-            <button id="clear" class="clearBtn">C</button>
+            <button onclick="Clear()" class="clearBtn">C</button>
+            <button onclick="AddBraces()" class="clearBtn">( )</button>
+            <button onclick="ShowList()" class="clearBtn">...</button>
             <p class="calculations" id="calcs"></p>
         </div>
         <div class="btnsContainer">
@@ -31,7 +33,13 @@
             <button class="buttonCalc" onclick="AppendDisplay('/')">/</button>
         </div>
     </div>
+    <div class="containerTwo" id="containerTwo">
+        <h1>History</h1>
+        <button onclick="ClearList()" class="clearBtn">C</button>
+        <ul id="list" class="list">
 
+        </ul>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
